@@ -1,0 +1,17 @@
+{
+    "appName": "Youtube",
+    "appId": "com.youtube",
+    "appIcon": "logo.png",
+    "description": "",
+    "autoRefreshAfterSeconds": 0,
+    "alwaysShowDetailedView": true,
+    "config": [
+        {
+            "name": "apiKey",
+            "label": "Youtube API v3 Key",
+            "type": "password",
+            "required": true,
+            "placeholder": "Enter your Youtube API v3 Key"
+        }
+    ]
+}

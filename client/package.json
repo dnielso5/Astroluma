@@ -1,0 +1,52 @@
+{
+  "name": "astrolumaclient",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "3.0.3",
+    "@dnd-kit/sortable": "3.0.1",
+    "@dnd-kit/utilities": "2.0.0",
+    "axios": "^1.6.8",
+    "buffer": "^6.0.3",
+    "framer-motion": "^11.3.0",
+    "jodit-react": "^4.1.2",
+    "jsqr": "^1.4.0",
+    "md5": "^2.3.0",
+    "mitt": "^3.0.1",
+    "moment": "^2.30.1",
+    "mpegts.js": "^1.7.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-bottom-scroll-listener": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "react-drag-drop-files": "^2.3.10",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^10.0.5",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^5.1.0",
+    "totp-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "globals": "^15.13.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "tw-colors": "^3.3.2",
+    "vite": "^5.3.1"
+  }
+}

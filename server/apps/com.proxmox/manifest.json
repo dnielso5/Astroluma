@@ -1,0 +1,31 @@
+{
+    "appName": "ProxMox",
+    "appId": "com.proxmox",
+    "appIcon": "logo.png",
+    "description": "",
+    "autoRefreshAfterSeconds": 60,
+    "alwaysShowDetailedView": true,
+    "config": [
+        {
+            "name": "username",
+            "label": "Proxmox Username",
+            "type": "string",
+            "required": true,
+            "placeholder": "Enter username"
+        },
+        {
+            "name": "password",
+            "label": "Proxmox Password",
+            "type": "string",
+            "required": true,
+            "placeholder": "Enter password"
+        },
+        {
+            "name": "realm",
+            "label": "Proxmox Realm",
+            "type": "string",
+            "required": true,
+            "placeholder": "Enter realm"
+        }
+    ]
+}

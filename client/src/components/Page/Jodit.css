@@ -1,0 +1,51 @@
+.jodit-wysiwyg {
+    @apply !bg-inputBg !text-inputText !placeholder-inputPlaceholder;
+}
+
+.jodit-ui-group, .jodit-popup__content {
+    @apply !bg-bodyBg !text-bodyText;
+}
+
+.jodit-toolbar__box, .jodit-status-bar {
+    @apply !bg-bodyBg !text-bodyText !placeholder-inputPlaceholder;
+}
+
+.jodit-container, .jodit-toolbar__box, .jodit-status-bar {
+    @apply !border-inputBorder rounded-xl;
+}
+
+.jodit-toolbar-button__button {
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}
+
+.jodit-toolbar-button__button:active {
+    @apply !bg-bodyBg !text-red-600 !border-inputBorder;
+}
+
+.jodit-toolbar-button, .jodit-toolbar-button__trigger, .jodit-toolbar-button__text{
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}
+
+.jodit-toolbar-button__text:hover{
+    @apply !bg-inputBg !text-inputText;
+}
+
+.jodit-popup {
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}
+
+.jodit-dialog {
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}
+
+.jodit-dialog__header {
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}
+
+.jodit-ui-input {
+    @apply !bg-inputBg !text-inputText !placeholder-inputPlaceholder !border-inputBorder;
+}
+
+.jodit-popup-container, .jodit-box {
+    @apply !bg-bodyBg !text-bodyText !border-inputBorder;
+}

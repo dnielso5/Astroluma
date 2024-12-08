@@ -1,0 +1,24 @@
+{
+    "appName": "Portainer",
+    "appId": "com.portainer",
+    "appIcon": "logo.png",
+    "description": "Displays statistics from Portainer.",
+    "alwaysShowDetailedView": true,
+    "autoRefreshAfterSeconds": 60,
+    "config": [
+        {
+            "name": "username",
+            "label": "Username",
+            "type": "string",
+            "required": true,
+            "placeholder": "Enter portainer username"
+        },
+        {
+            "name": "password",
+            "label": "Password",
+            "type": "password",
+            "required": true,
+            "placeholder": "Enter portainer password"
+        }
+    ]
+}

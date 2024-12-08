@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ##ports:
+    ##  - "8000:8000"
+    container_name: astroluma
+    environment:
+      PORT: 8000
+      NODE_ENV: production
+      SECRET_KEY: jK8hB2mL6qv9NxX0PzWrDt5Yc3FgT4Vu
+      MONGODB_URI: mongodb://localhost:27017/astroluma
+    volumes:
+      - uploads_data:/app/storage/uploads
+    depends_on:
+      - mongodb
+    restart: always
+    network_mode: "host" ## is important to function the network scanning. The bridge mode puts it behind NAT and the host mode puts it on the same network as the host.
+
+  mongodb:
+    image: mongo:6.0
+    container_name: astroluma_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+volumes:
+  mongo_data:
+    driver: local
+  uploads_data:
+    driver: local

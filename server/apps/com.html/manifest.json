@@ -1,0 +1,17 @@
+{
+    "appName": "HTML Code",
+    "appId": "com.html",
+    "appIcon": "logo.png",
+    "description": "",
+    "alwaysShowDetailedView": false,
+    "autoRefreshAfterSeconds": 0,
+    "config": [
+        {
+            "name": "htmlcode",
+            "label": "HTML Code",
+            "type": "string",
+            "required": false,
+            "placeholder": "Enter HTML Code"
+        }
+    ]
+}

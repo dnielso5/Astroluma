@@ -1,0 +1,64 @@
+
+
+.page-content-area {
+    user-select: text;
+    white-space: pre-wrap;
+}
+
+.page-content-area h1,
+.page-content-area h2,
+.page-content-area h3,
+.page-content-area h4,
+.page-content-area h5,
+.page-content-area h6 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.page-content-area h1 {
+    font-size: 2em;
+}
+
+.page-content-area h2 {
+    font-size: 1.5em;
+}
+
+.page-content-area h3 {
+    font-size: 1.17em;
+}
+
+.page-content-area h4 {
+    font-size: 1em;
+}
+
+.page-content-area h5 {
+    font-size: 0.83em;
+}
+
+.page-content-area h6 {
+    font-size: 0.67em;
+}
+
+.page-content-area ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.page-content-area ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.page-content-area a {
+    color: hsl(278, 100%, 50%);
+    text-decoration: none;
+}
+
+.page-content-area .ql-syntax {
+    padding: 8px;
+    background-color: #333;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+}
