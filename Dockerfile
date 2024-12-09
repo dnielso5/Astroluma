@@ -18,6 +18,7 @@ RUN npm install
 WORKDIR /app/client
 
 # Build the React client
+RUN chown root.root .  # make sure root own the directory before installing Sharp
 RUN npm run build
 
 # Copy the dist directory to the server/dist
